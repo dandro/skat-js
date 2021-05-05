@@ -1,0 +1,18 @@
+{
+  "name": "@skat/js",
+  "version": "1.0.0-rc",
+  "description": "SKAT CLI for the JavaScript ecosystem",
+  "main": "index.js",
+  "bin": {
+    "skat": "index.js"
+  },
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
+  "author": "dnlmrtnz",
+  "license": "MIT",
+  "devDependencies": {
+    "@docusaurus/init": "^2.0.0-alpha.75"
+  }
+}
