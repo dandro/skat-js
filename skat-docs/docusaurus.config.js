@@ -3,7 +3,7 @@ module.exports = {
   title: 'SKAT CLI',
   tagline: 'Code generation and templating for your project, your way!',
   url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  baseUrl: '/skat-js/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
