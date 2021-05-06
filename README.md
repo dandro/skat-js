@@ -13,3 +13,4 @@ seen [here](https://github.com/dandro/skat-engine).
 _This documentation refers to the usage docs not the code docs. For code docs
 check [the engine internal docs](https://github.com/dandro/skat-engine/tree/master/internal-docs)_ 
 
+For usage documentation, checkout the [docs](https://dandro.github.io/skat-js) site.

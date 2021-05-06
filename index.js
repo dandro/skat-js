@@ -6,7 +6,7 @@ const chalk = require('chalk');
 const {spawn} = require("child_process");
 
 const OS_BIN_MAP = {
-    "darwin": path.resolve(__dirname, 'engine/x86_64-osx/skat-engine-exe'),
+    "darwin": path.resolve(__dirname, 'engine/x86_64-osx/skat'),
 };
 
 function printCoolBanner() {
