@@ -11,6 +11,12 @@
     src: url(https://pismo.tailorbrands.com/v2/px_fonts/anthem)
 }
 
+/* 
+secondary: 
+    #D84797
+    rgb(216, 71, 151) 
+*/
+
 :root {
     --ifm-color-primary: #3D0859;
     --ifm-color-primary-dark: #27053a;
