@@ -2,13 +2,13 @@
 module.exports = {
   title: 'SKAT CLI',
   tagline: 'Code generation and templating for your project, your way!',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://dandro.github.io/skat-js/',
   baseUrl: '/skat-js/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'dnlmrtnz', // Usually your GitHub org/user name.
-  projectName: 'skat-js', // Usually your repo name.
+  organizationName: 'dnlmrtnz',
+  projectName: 'skat-js',
   themeConfig: {
     navbar: {
       title: 'SKAT cli',
@@ -25,7 +25,7 @@ module.exports = {
           label: 'Documentation',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/dandro/skat-js',
           label: 'GitHub',
           position: 'right',
         },
@@ -47,23 +47,6 @@ module.exports = {
             },
           ],
         },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} SKAT CLI.`,
     },
@@ -74,9 +57,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/dandro/skat-js',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
